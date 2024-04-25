@@ -61,6 +61,13 @@ python download-model.py TehVenom/Pygmalion-Vicuna-1.1-7b
 ```
 pip install -r extensions/openai/requirements.txt
 ```
+#### If you get an error try
+```
+pip install -r extensions/openai/requirements.txt --upgrade
+  or
+pip install requests
+pip install tqdm
+```
 #### 6. Set env in `.env` file
 ```
 cp .env_template .env
